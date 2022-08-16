@@ -1,0 +1,54 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/mobile/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/study/index",
+			"style": {
+				"navigationBarTitleText": "学习进度"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/mobile/index",
+				"iconPath": "static/tabbar/index1.png",
+				"selectedIconPath": "static/tabbar/index1_selected.png"
+			},
+			{
+				"text": "学习",
+				"pagePath": "pages/study/index",
+				"iconPath": "static/tabbar/learn.png",
+				"selectedIconPath": "static/tabbar/learn_selected.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_selected.png"
+			}
+		],
+		"selectedColor": "black"
+	}
+}
