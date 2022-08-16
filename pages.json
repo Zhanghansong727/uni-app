@@ -29,8 +29,7 @@
 	},
 	"uniIdRouter": {},
 	"tabBar": {
-		"list": [
-			{
+		"list": [{
 				"text": "首页",
 				"pagePath": "pages/mobile/index",
 				"iconPath": "static/tabbar/index1.png",
@@ -49,6 +48,8 @@
 				"selectedIconPath": "static/tabbar/home_selected.png"
 			}
 		],
-		"selectedColor": "black"
+		"color": "#BBBAC7",
+		"selectedColor": "#2C2C2C",
+		"borderStyle": "black"
 	}
 }
